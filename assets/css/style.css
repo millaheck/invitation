@@ -12,7 +12,7 @@ body {
     background-image: url("/assets/img/background.png");
     color: var(--marrom-secundario);
     font-family: var(--fonte-principal);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     margin: 5em;
     background-position: 30% 45%;
@@ -44,7 +44,7 @@ body {
     padding: 0.2em;
     color: var(--branco-principal);
     display: block;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
     margin-bottom: 0.5em;
     font-weight: bold;
@@ -69,7 +69,7 @@ body {
 
 .container_texto {
     background-color: var(--cor-de-fundo);
-    font-size: 18px;
+    font-size: 20px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     font-weight: 700;
@@ -166,7 +166,7 @@ body {
 .container_texto-secundario {
     background-color: var(--cor-de-fundo);
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     margin-bottom: 1em;
     padding: 0.3em;
@@ -197,7 +197,7 @@ body {
     margin-left: 5em;
     margin-right: 5em;
     margin-bottom: 2em;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     padding: 1em;
     box-shadow: 0px 2px 2px 0px #dfdfdf;
@@ -208,7 +208,7 @@ body {
     border-radius: 5px;
     padding: 0.5em;
     color: var(--branco-principal);
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
     margin-bottom: 10em;
     align-items: center;
@@ -247,7 +247,7 @@ body {
     margin-left: 5em;
     margin-right: 5em;
     margin-bottom: 1em;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     padding: 1em;
     box-shadow: 0px 2px 2px 0px #dfdfdf;
@@ -348,9 +348,7 @@ body {
         margin-bottom: 28em;
         width: 100%;
         padding: 0;
-        position: relative;
-        display: inline;
-        box-sizing: inherit;
+        box-sizing: initial;
     }
     .container-texto {
         width: 100%;
@@ -368,9 +366,104 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+    :root {
+        --branco-principal: #FFFFFF;
+        --marrom-secundario: #522A2A;
+        --botao-verde: #8CB58B;
+        --cor-de-fundo: #F2F1E8;
+        --fonte-principal: "Ysabeau";
+        --botao-verde-efeito: #4d9b4d;
+    }
+    .cabecalho {
+        width: 100%;
+        align-items: center;
+        float: none;
+        margin-left: 0.01em;
+        margin-top: 12em;
+    }
     .container-caixa {
+        width: 100%;
+        padding: 0;
+        position: relative;
+        display: grid;
+        margin-bottom: 11em;
         float: none;
         text-align: center;
+    }
+    .container-titulo {
         width: 100%;
+        padding: 0;
+        position: relative;
+        display: grid;
+        margin-left: 0.1em;
+        margin-right: 5em;
+    }
+    .slider {
+        margin-bottom: 28em;
+        width: 100%;
+        padding: 0;
+        position: relative;
+        display: inline;
+        box-sizing: initial;
+    }
+    .container-texto {
+        width: 100%;
+        padding: 0;
+        position: relative;
+        display: grid;
+    }
+    .container_botao {
+        width: 100%;
+        align-items: center;
+    }
+    .rodape {
+        margin-bottom: 13em;
+    }
+
+   
+    .cabecalho {
+        width: 100%;
+        align-items: center;
+        float: none;
+        margin-left: 0.01em;
+        margin-top: 12em;
+    }
+
+    .container-caixa {
+        width: 100%;
+        padding: 0;
+        position: relative;
+        display: grid;
+        margin-bottom: 11em;
+        float: none;
+        text-align: center;
+    }
+    .container_titulo-secundario {
+        width: 100%;
+        padding: 0;
+        position: relative;
+        display: grid;
+        margin-left: 0.1em;
+        margin-right: 5em;
+    }
+    .slider {
+        margin-bottom: 28em;
+        width: 100%;
+        padding: 0;
+        position: relative;
+        display: inline;
+        box-sizing: initial;
+    }
+    .container-texto {
+        width: 100%;
+        padding: 0;
+        position: relative;
+        display: grid;
+    }
+    .mapa-container {
+        width: 100%;
+        align-items: center;
+        display: flex;
     }
 }
+
