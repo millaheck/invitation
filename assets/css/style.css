@@ -374,12 +374,9 @@ body {
         --fonte-principal: "Ysabeau";
         --botao-verde-efeito: #4d9b4d;
     }
-    .cabecalho {
-        width: 100%;
-        align-items: center;
-        float: none;
-        margin-left: 0.01em;
-        margin-top: 12em;
+    .cabecalho_menu {
+        align-content: center;
+        margin-left: 0.0001px;
     }
     .container-caixa {
         width: 100%;
@@ -389,6 +386,7 @@ body {
         margin-bottom: 11em;
         float: none;
         text-align: center;
+        font-family: Ysabeau;
     }
     .container-titulo {
         width: 100%;
@@ -417,7 +415,7 @@ body {
         align-items: center;
     }
     .rodape {
-        margin-bottom: 13em;
+        margin-bottom: 15em;
     }
 
    
@@ -452,6 +450,13 @@ body {
         padding: 0;
         position: relative;
         display: inline;
+        box-sizing: initial;
+    }
+    .slider-inner {
+        margin-bottom: 28em;
+        width: 100%;
+        padding: 0;
+        position: relative;
         box-sizing: initial;
     }
     .container-texto {
