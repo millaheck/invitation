@@ -14,7 +14,7 @@ body {
     font-family: var(--fonte-principal);
     font-size: 20px;
     font-weight: 400;
-    margin: 5em;
+    margin: 4em;
     background-position: 30% 45%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -39,6 +39,19 @@ body {
 }
 
 .container_botao {
+    background-color: var(--botao-verde);
+    border-radius: 5px;
+    padding: 0.2em;
+    color: var(--branco-principal);
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px 0px #dfdfdf;
+}
+
+.container_botao-1 {
     background-color: var(--botao-verde);
     border-radius: 5px;
     padding: 0.2em;
@@ -366,109 +379,142 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    :root {
-        --branco-principal: #FFFFFF;
-        --marrom-secundario: #522A2A;
-        --botao-verde: #8CB58B;
-        --cor-de-fundo: #F2F1E8;
-        --fonte-principal: "Ysabeau";
-        --botao-verde-efeito: #4d9b4d;
-    }
     .cabecalho_menu {
         align-content: center;
         margin-left: 0.0001px;
-    }
-    .container-caixa {
-        width: 100%;
-        padding: 0;
-        position: relative;
-        display: grid;
-        margin-bottom: 11em;
-        float: none;
-        text-align: center;
-        font-family: Ysabeau;
-    }
-    .container-titulo {
-        width: 100%;
-        padding: 0;
-        position: relative;
-        display: grid;
-        margin-left: 0.1em;
-        margin-right: 5em;
-    }
-    .slider {
-        margin-bottom: 28em;
-        width: 100%;
-        padding: 0;
-        position: relative;
-        display: inline;
-        box-sizing: initial;
-    }
-    .container-texto {
-        width: 100%;
-        padding: 0;
-        position: relative;
-        display: grid;
-    }
-    .container_botao {
-        width: 100%;
-        align-items: center;
     }
     .rodape {
         margin-bottom: 15em;
     }
 
-   
-    .cabecalho {
-        width: 100%;
-        align-items: center;
-        float: none;
-        margin-left: 0.01em;
-        margin-top: 12em;
-    }
-
-    .container-caixa {
-        width: 100%;
+    .container_titulo {
+        width: 220px;
         padding: 0;
         position: relative;
         display: grid;
-        margin-bottom: 11em;
-        float: none;
-        text-align: center;
+        margin-right: 5em;
+        margin-bottom: 250px;
+        margin-top: 1px;
     }
-    .container_titulo-secundario {
-        width: 100%;
+    .slider {
+        margin-bottom: 450px;
+        width: 220px;
+        align-items: center;
+        margin-left: 1px;
+        margin-top: 270px;
+        position: absolute;
+        display: grid;
+        box-sizing: initial;
+    }
+    .container_texto {
+        width: 220px;
+        padding: 0;
+        position: relative;
+        display: grid;
+        margin-right: 5em;
+        margin-bottom: 8px;
+    }
+    .container_botao-1 {
+        width: 220px;
         padding: 0;
         position: relative;
         display: grid;
         margin-left: 0.1em;
         margin-right: 5em;
+        margin-top: 1px;
     }
-    .slider {
-        margin-bottom: 28em;
-        width: 100%;
+
+    .container_titulo-secundario {
+        width: 220px;
         padding: 0;
         position: relative;
-        display: inline;
-        box-sizing: initial;
+        display: grid;
+        margin-right: 5em;
+        margin-bottom: 1px;
     }
-    .slider-inner {
-        margin-bottom: 28em;
-        width: 100%;
+
+    .container_texto-secundario {
+        width: 220px;
         padding: 0;
         position: relative;
-        box-sizing: initial;
+        display: grid;
+        margin-right: 5em;
+        margin-top: 0.1px;
     }
-    .container-texto {
+
+    .container_titulo-secundario-2 {
+        width: 220px;
+        padding: 0;
+        position: relative;
+        display: grid;
+        margin-right: 5em;
+        margin-top: 1px;
+        margin-bottom: 10px;
+    }
+
+    .mapa-container {
+        margin-left: 1px;
+        margin-right: 0;
+        height: 45px;
+        padding-bottom:56.25%;
+        position: relative;
+        height:0;
+    }
+
+    .container_botao {
+        width: 220px;
+        padding: 0;
+        position: relative;
+        display: grid;
+        margin-left: 0.1em;
+        margin-right: 5em;
+        margin-bottom: 150px;
+        align-items: flex-start;
+    }
+    .container-titulo-terciario {
         width: 100%;
         padding: 0;
         position: relative;
         display: grid;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-bottom: 30px;
+        float: none;
+        text-align: center;
+        font-family: var(--fonte-principal);
     }
-    .mapa-container {
-        width: 100%;
+
+    .container-caixa {
+        position: relative;
+        display: grid;
+        text-align: center;
         align-items: center;
-        display: flex;
+    }
+
+    .container-titulo-quatro {
+        padding: 0;
+        font-family: var(--fonte-principal);
+        margin-left: 2px;
+        margin-right: 2px;
+        width: 230px;
+        font-size: 20px;
+        
+    }
+    .container-texto-quatro {
+        width: 190px;
+        font-family: var(--fonte-principal);
+        margin-left: 2px;
+        font-size: 17px;
+        
+    }
+    .container-texto-cinco {
+        padding: 0;
+        width: 235px;
+        font-family: var(--fonte-principal);
+        margin-left: 0;
+        margin-right: 4px;
+        font-size: 17px;
+        margin-bottom: 150px;
     }
 }
 
