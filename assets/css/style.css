@@ -383,7 +383,6 @@ body {
         box-sizing: border-box;
         background-image: url("/assets/img/background.png");
         color: var(--marrom-secundario);
-        font-family: var(--fonte-principal);
         font-size: 20px;
         font-weight: 400;
         font-family: url("https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@1,100&display=swap");
@@ -475,7 +474,7 @@ body {
         width: 220px;
         height: 220px;
         margin-top: 120px;
-        margin-bottom: 450px;
+        margin-bottom: 850px;
     }
 
     .container_botao {
