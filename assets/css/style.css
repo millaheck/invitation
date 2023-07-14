@@ -64,7 +64,8 @@ body {
 
 .container_titulo {
     background-color: var(--cor-de-fundo);
-    text-shadow: -1px 0 #8CB58B, 0 1px #8CB58B, 1px 0 #8CB58B, 0 -1px #8CB58B;
+    text-shadow: -1px 0 #8CB58B, 0 1px #8CB58B, 1px 0 #4d9b4d, 0 -1px #4d9b4d;
+    font-family: var(--fonte-principal);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     font-size: 23px;
