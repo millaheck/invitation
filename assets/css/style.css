@@ -410,7 +410,7 @@ body {
         width: 220px;
         align-items: center;
         margin-left: 1px;
-        margin-top: 78px;
+        margin-top: 76px;
         position: absolute;
         display: grid;
         box-sizing: initial;
@@ -442,6 +442,7 @@ body {
         padding-top: 3px;
         position: relative;
         display: grid;
+        margin-top: 0;
         margin-right: 5em;
         margin-bottom: 1px;
         border-bottom-left-radius: 0;
@@ -485,7 +486,7 @@ body {
     .googlemap {
         width: 220px;
         height: 250px;
-        margin-top: 300px;
+        margin-top: 180px;
     }
 
     .container_botao {
