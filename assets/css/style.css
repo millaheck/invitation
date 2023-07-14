@@ -64,7 +64,7 @@ body {
 
 .container_titulo {
     background-color: var(--cor-de-fundo);
-    text-shadow: -1px 0 #8CB58B, 0 1px #8CB58B, 1px 0 #4d9b4d, 0 -1px #4d9b4d;
+    text-shadow: -1px 0 #8CB58B, 0 1px #8CB58B, 1px 0 #8CB58B, 0 -1px #8CB58B;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     font-size: 23px;
@@ -155,7 +155,7 @@ body {
 
 .container_titulo-secundario {
     background-color: var(--cor-de-fundo);
-    text-shadow: -1px 0 #8CB58B, 0 1px #8CB58B, 1px 0 #4d9b4d, 0 -1px #4d9b4d;
+    text-shadow: -1px 0 #8CB58B, 0 1px #8CB58B, 1px 0 #8CB58B, 0 -1px #8CB58B;
     border-radius: 5px;
     font-size: 21px;
     font-weight: 700;
@@ -166,7 +166,7 @@ body {
 
 .container_titulo-secundario-2 {
     background-color: var(--cor-de-fundo);
-    text-shadow: -1px 0 #8CB58B, 0 1px #8CB58B, 1px 0 #4d9b4d, 0 -1px #4d9b4d;
+    text-shadow: -1px 0 #8CB58B, 0 1px #8CB58B, 1px 0 #8CB58B, 0 -1px #8CB58B;
     font-size: 21px;
     font-weight: 700;
     padding: 0.3em;
@@ -402,7 +402,7 @@ body {
         margin-bottom: 310px;
         margin-top: 2px;
         background-color: var(--cor-de-fundo);
-        text-shadow: -1px 0 #522A2A, 0 1px #522A2A, 1px 0 #522A2A, 0 -1px #522A2A;
+        text-shadow: -1px 0 #8CB58B, 0 1px #8CB58B, 1px 0 #8CB58B, 0 -1px #8CB58B;
     }
     .slider {
         margin-bottom: 350px;
