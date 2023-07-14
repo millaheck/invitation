@@ -109,6 +109,8 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 1rem;
     font-weight: 400;
+    align-items: center;
+    justify-content: center;
 }
 
 .rodape_texto {
@@ -323,13 +325,13 @@ body {
 .cabecalho {
     padding: 0.5% 0.5% 0.5% 0.5%;
     background-color: transparent;
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 4em;
+    margin-right: 4em;
 }
 
 .cabecalho_menu {
     display: flex;
-    gap: 28px;
+    gap: 27px;
     align-items: center;
     justify-content: center;
 }
@@ -393,6 +395,8 @@ body {
     .container_titulo {
         width: 220px;
         padding: 0;
+        padding-bottom: 3px;
+        padding-top: 3px;
         position: relative;
         display: grid;
         margin-right: 5em;
@@ -402,11 +406,11 @@ body {
         text-shadow: -1px 0 #522A2A, 0 1px #522A2A, 1px 0 #522A2A, 0 -1px #522A2A;
     }
     .slider {
-        margin-bottom: 480px;
+        margin-bottom: 490px;
         width: 220px;
         align-items: center;
         margin-left: 1px;
-        margin-top: 120px;
+        margin-top: 160px;
         position: absolute;
         display: grid;
         box-sizing: initial;
@@ -414,6 +418,8 @@ body {
     .container_texto {
         width: 220px;
         padding: 0;
+        padding-bottom: 3px;
+        padding-top: 3px;
         position: relative;
         display: grid;
         margin-right: 5em;
@@ -489,20 +495,26 @@ body {
         display: grid;
         margin-left: 0.1em;
         margin-right: 5em;
-        margin-bottom: 150px;
+        margin-bottom: 250px;
         align-items: flex-start;
     }
     .container-titulo-terciario {
         width: 100%;
         padding: 0;
+        padding-bottom: 3px;
+        padding-top: 3px;
         position: relative;
         display: grid;
-        margin-top: 20px;
+        margin-top: 1px;
         margin-left: 0;
         margin-bottom: 30px;
         float: none;
         text-align: center;
         font-family: var(--fonte-principal);
+    }
+
+    .botao-confirmar {
+        margin-bottom: 550px;
     }
 
     .container-caixa {
@@ -519,6 +531,7 @@ body {
         margin-right: 2px;
         width: 230px;
         font-size: 20px;
+        justify-content: center;
         
     }
     .container-texto-quatro {
@@ -526,7 +539,6 @@ body {
         font-family: var(--fonte-principal);
         margin-left: 2px;
         font-size: 17px;
-        
     }
     .container-texto-cinco {
         padding: 0;
@@ -535,7 +547,8 @@ body {
         margin-left: 0;
         margin-right: 4px;
         font-size: 17px;
-        margin-bottom: 150px;
+        margin-bottom: 230px;
+        justify-content: center;
     }
 }
 
