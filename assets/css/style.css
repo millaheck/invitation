@@ -403,6 +403,8 @@ body {
         margin-right: 5em;
         margin-bottom: 310px;
         margin-top: 2px;
+        background-color: var(--cor-de-fundo);
+    text-shadow: -1px 0 #522A2A, 0 1px #522A2A, 1px 0 #522A2A, 0 -1px #522A2A;
     }
     .slider {
         margin-bottom: 450px;
