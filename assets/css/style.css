@@ -396,8 +396,9 @@ body {
         position: relative;
         display: grid;
         margin-right: 5em;
-        margin-bottom: 300px;
+        margin-bottom: 350px;
         margin-top: 2px;
+        font-family: 'Ysabeau';
     }
     .slider {
         margin-bottom: 450px;
@@ -416,6 +417,7 @@ body {
         display: grid;
         margin-right: 5em;
         margin-bottom: 8px;
+        font-family: 'Ysabeau';
     }
     .container_botao-1 {
         width: 220px;
@@ -425,6 +427,7 @@ body {
         margin-left: 0.1em;
         margin-right: 5em;
         margin-top: 1px;
+        font-family: 'Ysabeau';
     }
 
     .container_titulo-secundario {
