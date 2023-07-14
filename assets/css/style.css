@@ -406,11 +406,11 @@ body {
         text-shadow: -1px 0 #522A2A, 0 1px #522A2A, 1px 0 #522A2A, 0 -1px #522A2A;
     }
     .slider {
-        margin-bottom: 390px;
+        margin-bottom: 350px;
         width: 220px;
         align-items: center;
         margin-left: 1px;
-        margin-top: 60px;
+        margin-top: 20px;
         position: absolute;
         display: grid;
         box-sizing: initial;
@@ -484,8 +484,8 @@ body {
 
     .googlemap {
         width: 220px;
-        height: 220px;
-        margin-top: 340px;
+        height: 250px;
+        margin-top: 30px;
     }
 
     .container_botao {
