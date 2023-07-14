@@ -329,7 +329,7 @@ body {
 
 .cabecalho_menu {
     display: flex;
-    gap: 29px;
+    gap: 28px;
     align-items: center;
     justify-content: center;
 }
@@ -399,10 +399,10 @@ body {
         margin-bottom: 310px;
         margin-top: 2px;
         background-color: var(--cor-de-fundo);
-    text-shadow: -1px 0 #522A2A, 0 1px #522A2A, 1px 0 #522A2A, 0 -1px #522A2A;
+        text-shadow: -1px 0 #522A2A, 0 1px #522A2A, 1px 0 #522A2A, 0 -1px #522A2A;
     }
     .slider {
-        margin-bottom: 450px;
+        margin-bottom: 480px;
         width: 220px;
         align-items: center;
         margin-left: 1px;
@@ -432,10 +432,14 @@ body {
     .container_titulo-secundario {
         width: 220px;
         padding: 0;
+        padding-bottom: 3px;
+        padding-top: 3px;
         position: relative;
         display: grid;
         margin-right: 5em;
         margin-bottom: 1px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
     }
 
     .container_texto-secundario {
@@ -444,12 +448,17 @@ body {
         position: relative;
         display: grid;
         margin-right: 5em;
-        margin-top: 0.1px;
+        margin-top: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        padding-bottom: 3px;
     }
 
     .container_titulo-secundario-2 {
         width: 220px;
         padding: 0;
+        padding-bottom: 3px;
+        padding-top: 3px;
         position: relative;
         display: grid;
         margin-right: 5em;
