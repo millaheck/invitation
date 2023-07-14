@@ -44,10 +44,9 @@ body {
     padding: 0.2em;
     color: var(--branco-principal);
     display: block;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     margin-bottom: 0.5em;
-    font-weight: bold;
     box-shadow: 5px 5px 5px 0px #dfdfdf;
 }
 
@@ -57,19 +56,18 @@ body {
     padding: 0.2em;
     color: var(--branco-principal);
     display: block;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     margin-bottom: 0.5em;
-    font-weight: bold;
     box-shadow: 5px 5px 5px 0px #dfdfdf;
 }
 
 .container_titulo {
     background-color: var(--cor-de-fundo);
-    text-shadow: -1px 0 #522A2A, 0 1px #522A2A, 1px 0 #4d9b4d, 0 -1px #4d9b4d;
+    text-shadow: -1px 0 #8CB58B, 0 1px #8CB58B, 1px 0 #4d9b4d, 0 -1px #4d9b4d;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     padding: 0.5em;
     color: var(--branco-principal);
@@ -82,7 +80,7 @@ body {
 
 .container_texto {
     background-color: var(--cor-de-fundo);
-    font-size: 20px;
+    font-size: 18px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     font-weight: 700;
@@ -116,7 +114,7 @@ body {
 .rodape_texto {
     color: var(--cinza-secundario);
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
 }
 
@@ -124,7 +122,7 @@ body {
     list-style-type: none;
     color: var(--branco-principal);
     color: var(--marrom-secundario);
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
 }
 
@@ -157,7 +155,7 @@ body {
     background-color: var(--cor-de-fundo);
     text-shadow: -1px 0 #522A2A, 0 1px #522A2A, 1px 0 #522A2A, 0 -1px #522A2A;
     border-radius: 5px;
-    font-size: 27px;
+    font-size: 23px;
     font-weight: 700;
     padding: 0.3em;
     color: var(--branco-principal);
@@ -168,7 +166,7 @@ body {
     background-color: var(--cor-de-fundo);
     text-shadow: -1px 0 #522A2A, 0 1px #522A2A, 1px 0 #522A2A, 0 -1px #522A2A;
     border-radius: 5px;
-    font-size: 27px;
+    font-size: 23px;
     font-weight: 700;
     padding: 0.3em;
     color: var(--branco-principal);
@@ -179,7 +177,7 @@ body {
 .container_texto-secundario {
     background-color: var(--cor-de-fundo);
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     margin-bottom: 1em;
     padding: 0.3em;
@@ -210,7 +208,7 @@ body {
     margin-left: 5em;
     margin-right: 5em;
     margin-bottom: 2em;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     padding: 1em;
     box-shadow: 0px 2px 2px 0px #dfdfdf;
@@ -221,7 +219,7 @@ body {
     border-radius: 5px;
     padding: 0.5em;
     color: var(--branco-principal);
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     margin-bottom: 10em;
     align-items: center;
@@ -249,7 +247,7 @@ body {
     margin-left: 5em;
     margin-right: 5em;
     margin-bottom: 1em;
-    font-size: 27px;
+    font-size: 23px;
     font-weight: 700;
     padding: 1em;
 }
@@ -260,7 +258,7 @@ body {
     margin-left: 5em;
     margin-right: 5em;
     margin-bottom: 1em;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     padding: 1em;
     box-shadow: 0px 2px 2px 0px #dfdfdf;
@@ -271,7 +269,7 @@ body {
     margin-left: 5em;
     margin-right: 5em;
     margin-bottom: 2em;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
     padding: 1em;
 }
@@ -293,7 +291,7 @@ body {
 
 .cabecalho_menu_link {
     font-family: var(--fonte-principal);
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--marrom-secundario);
     text-decoration: none;
@@ -331,7 +329,9 @@ body {
 
 .cabecalho_menu {
     display: flex;
-    gap: 40px;
+    gap: 29px;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -380,11 +380,6 @@ body {
 
 @media screen and (max-width: 600px) {
     .body {
-        box-sizing: border-box;
-        background-image: url("/assets/img/background.png");
-        color: var(--marrom-secundario);
-        font-size: 20px;
-        font-weight: 400;
         font-family: url("https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@1,100&display=swap");
     }
     .cabecalho_menu {
