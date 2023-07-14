@@ -67,7 +67,7 @@ body {
     text-shadow: -1px 0 #8CB58B, 0 1px #8CB58B, 1px 0 #4d9b4d, 0 -1px #4d9b4d;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    font-size: 28px;
+    font-size: 23px;
     font-weight: 700;
     padding: 0.5em;
     color: var(--branco-principal);
@@ -157,7 +157,7 @@ body {
     background-color: var(--cor-de-fundo);
     text-shadow: -1px 0 #522A2A, 0 1px #522A2A, 1px 0 #522A2A, 0 -1px #522A2A;
     border-radius: 5px;
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 700;
     padding: 0.3em;
     color: var(--branco-principal);
@@ -168,7 +168,7 @@ body {
     background-color: var(--cor-de-fundo);
     text-shadow: -1px 0 #522A2A, 0 1px #522A2A, 1px 0 #522A2A, 0 -1px #522A2A;
     border-radius: 5px;
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 700;
     padding: 0.3em;
     color: var(--branco-principal);
@@ -395,8 +395,8 @@ body {
     .container_titulo {
         width: 220px;
         padding: 0;
-        padding-bottom: 3px;
-        padding-top: 3px;
+        padding-bottom: 5px;
+        padding-top: 5px;
         position: relative;
         display: grid;
         margin-right: 5em;
@@ -410,7 +410,7 @@ body {
         width: 220px;
         align-items: center;
         margin-left: 1px;
-        margin-top: 80px;
+        margin-top: 82px;
         position: absolute;
         display: grid;
         box-sizing: initial;
@@ -485,7 +485,7 @@ body {
     .googlemap {
         width: 220px;
         height: 250px;
-        margin-top: 200px;
+        margin-top: 250px;
     }
 
     .container_botao {
