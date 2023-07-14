@@ -406,11 +406,11 @@ body {
         text-shadow: -1px 0 #522A2A, 0 1px #522A2A, 1px 0 #522A2A, 0 -1px #522A2A;
     }
     .slider {
-        margin-bottom: 490px;
+        margin-bottom: 390px;
         width: 220px;
         align-items: center;
         margin-left: 1px;
-        margin-top: 160px;
+        margin-top: 60px;
         position: absolute;
         display: grid;
         box-sizing: initial;
