@@ -423,7 +423,7 @@ body {
         position: relative;
         display: grid;
         margin-right: 5em;
-        margin-bottom: 8px;
+        margin-bottom: 6px;
     }
     .container_botao-1 {
         width: 220px;
@@ -485,8 +485,7 @@ body {
     .googlemap {
         width: 220px;
         height: 250px;
-        margin-top: 250px;
-        margin-bottom: 300px;
+        margin-top: 300px;
     }
 
     .container_botao {
