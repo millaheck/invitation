@@ -379,6 +379,8 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+    @import url("https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@1,100&display=swap");
+    
     .body {
         font-family: 'Ysabeau';
     }
@@ -456,12 +458,19 @@ body {
     }
 
     .mapa-container {
+        max-width: 700px;
         margin-left: 1px;
         margin-right: 0;
-        height: 45px;
+        width: 220px;
         padding-bottom:56.25%;
-        position: relative;
+        position: absolute;
         height:0;
+    }
+
+    .googlemap {
+        width: 220px;
+        height: 220px;
+        margin-top: 80px;
     }
 
     .container_botao {
