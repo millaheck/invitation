@@ -155,7 +155,7 @@ body {
 
 .container_titulo-secundario {
     background-color: var(--cor-de-fundo);
-    text-shadow: -1px 0 #522A2A, 0 1px #522A2A, 1px 0 #522A2A, 0 -1px #522A2A;
+    text-shadow: -1px 0 #8CB58B, 0 1px #8CB58B, 1px 0 #4d9b4d, 0 -1px #4d9b4d;
     border-radius: 5px;
     font-size: 21px;
     font-weight: 700;
@@ -166,8 +166,7 @@ body {
 
 .container_titulo-secundario-2 {
     background-color: var(--cor-de-fundo);
-    text-shadow: -1px 0 #522A2A, 0 1px #522A2A, 1px 0 #522A2A, 0 -1px #522A2A;
-    border-radius: 5px;
+    text-shadow: -1px 0 #8CB58B, 0 1px #8CB58B, 1px 0 #4d9b4d, 0 -1px #4d9b4d;
     font-size: 21px;
     font-weight: 700;
     padding: 0.3em;
