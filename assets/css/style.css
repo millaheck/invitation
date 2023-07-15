@@ -486,19 +486,18 @@ body {
     .googlemap {
         width: 220px;
         height: 250px;
-        margin-top: 230px;
+        margin-top: 220px;
     }
 
     .container_botao {
         width: 220px;
         padding: 0;
-        position: absolute;
+        position: relative;
         display: grid;
         margin-left: 0.1em;
         margin-right: 5em;
-        margin-bottom: 20px;
-        align-items: center;
-        justify-content: center;
+        margin-bottom: 350px;
+        align-items: flex-start;
     }
     .container-titulo-terciario {
         width: 100%;
