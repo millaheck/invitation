@@ -492,12 +492,13 @@ body {
     .container_botao {
         width: 220px;
         padding: 0;
-        position: relative;
+        position: absolute;
         display: grid;
         margin-left: 0.1em;
         margin-right: 5em;
-        margin-bottom: 350px;
-        align-items: flex-start;
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content: center;
     }
     .container-titulo-terciario {
         width: 100%;
