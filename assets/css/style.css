@@ -433,8 +433,6 @@ body {
         margin-left: 0.1em;
         margin-right: 5em;
         margin-top: 1px;
-        margin-bottom: 350px;
-        align-items: flex-start;
     }
 
     .container_titulo-secundario {
@@ -488,7 +486,7 @@ body {
     .googlemap {
         width: 220px;
         height: 250px;
-        margin-top: 200px;
+        margin-top: 220px;
     }
 
     .container_botao {
@@ -498,7 +496,7 @@ body {
         display: grid;
         margin-left: 0.1em;
         margin-right: 5em;
-        margin-bottom: 350px;
+        margin-bottom: 330px;
         align-items: flex-start;
     }
     .container-titulo-terciario {
